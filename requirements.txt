@@ -1,0 +1,8 @@
+streamlit
+langgraph
+langchain-groq
+google-genai
+langchain-core
+python-dotenv
+requests
+markdown

@@ -1,0 +1,11 @@
+services:
+  email-dispatcher:
+    build: .
+    image: ai-email-dispatcher
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    restart: unless-stopped
